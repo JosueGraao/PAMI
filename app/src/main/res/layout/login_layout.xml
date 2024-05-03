@@ -13,11 +13,13 @@
         android:layout_gravity="center_horizontal"
         android:src="#2c2c2c"/>
     <EditText
+        android:id="@+id/edtEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="insira seu email"
         android:inputType="textEmailAddress" />
     <EditText
+        android:id="@+id/edtSenha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="insira sua senha"

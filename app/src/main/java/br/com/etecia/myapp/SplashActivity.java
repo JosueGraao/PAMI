@@ -29,7 +29,8 @@ public class SplashActivity extends AppCompatActivity {
             public void run() {
                 //Abrir janela de login
                 Intent intent = new Intent(getApplicationContext(),LoginActivity.class);
-                startActivity();
+                startActivity(intent);
+                finish();
             }
         },2000);
 
